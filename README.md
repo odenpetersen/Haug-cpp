@@ -4,6 +4,8 @@ Translating VBA code from Espen Gaarder Haug's classic book [The Complete Guide 
 
 Please read the book for explanations of the formulas themselves and their parameters.
 
+This project mostly attempts to conform to [Google's C++ Style Guide](https://students.cs.byu.edu/~cs235ta/references/Cpp%20Style/Google%20Cpp%20Style%20Guide.pdf), but this is not guaranteed. Variables are often renamed (i.e. differently to the book) for clarity.
+
 ## Contents
 ### 1. Black-Scholes-Merton (WIP)
 #### 1.1. Black-Scholes-Merton (WIP)
