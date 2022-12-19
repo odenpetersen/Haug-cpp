@@ -5,20 +5,19 @@ Translating VBA code from Espen Gaarder Haug's classic book [The Complete Guide 
 Please read the book for explanations of the formulas themselves and their parameters.
 
 ## Contents
-### 1. Black-Scholes-Merton
-#### 1.1. Black-Scholes-Merton
-##### 1.1.1 The Black-Scholes Option Pricing Formula
-
-### 2. Black-Scholes-Merton Greeks
-### 3. Analytical Formulas for American Options
-### 4. Exotic Options - Single Asset
-### 5. Exotic Options on Two Assets
-### 6. Black-Scholes-Merton Adjustments and Alternatives
-### 7. Trees and Finite Difference Methods
-### 8. Monte Carlo Simulation
-### 9. Options on Stocks That Pay Discrete Dividends
-### 10. Commodity and Energy Options
-### 11. Interest Rate Derivatives
-### 12. Volatility and Correlation
-### 13. Distributions
-### 14. Some Useful Formulas
+### 1. Black-Scholes-Merton (WIP)
+#### 1.1. Black-Scholes-Merton (WIP)
+##### 1.1.1 The Black-Scholes Option Pricing Formula (WIP)
+### 2. Black-Scholes-Merton Greeks (WIP)
+### 3. Analytical Formulas for American Options (WIP)
+### 4. Exotic Options - Single Asset (WIP)
+### 5. Exotic Options on Two Assets (WIP)
+### 6. Black-Scholes-Merton Adjustments and Alternatives (WIP)
+### 7. Trees and Finite Difference Methods (WIP)
+### 8. Monte Carlo Simulation (WIP)
+### 9. Options on Stocks That Pay Discrete Dividends (WIP)
+### 10. Commodity and Energy Options (WIP)
+### 11. Interest Rate Derivatives (WIP)
+### 12. Volatility and Correlation (WIP)
+### 13. Distributions (WIP)
+### 14. Some Useful Formulas (WIP)
