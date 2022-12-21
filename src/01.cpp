@@ -47,11 +47,13 @@ double GBlackScholes(char call_put_flag, double stock_price, double strike_price
 	} else if (call_put_flag == 'p') {
 		return strike_price * std::exp( - risk_free_rate * time_to_expiry_years) * pnorm( - d2) - stock_price * std::exp((cost_of_carry_annual - risk_free_rate) * time_to_expiry_years) * pnorm( - d1);
 	} else {
-		throw std::invalid_argument("Argument call_put_flag to function BlackScholes must be either 'c' or 'p'");
+		throw std::invalid_argument("Argument call_put_flag to function GBlackScholes must be either 'c' or 'p'");
 	}
 }
 
 void test_01() {
+	std::cout << "Chapter 01 Tests" << std::endl << std::endl;
+
 	double expected, output;
 	double stock_price, strike_price, time_to_expiry_years, risk_free_rate, cost_of_carry_annual, sigma_annual;
 
@@ -93,6 +95,8 @@ void test_01() {
 	expected = output;
 	output = GBlackScholes('c', - stock_price, - strike_price, time_to_expiry_years, risk_free_rate, cost_of_carry_annual, - sigma_annual);
 	std::cout << expected << ' ' << output << ' ' << relative_error(expected,output) << std::endl;
+
+	std::cout << std::endl << std::endl << std::endl;
 }
 
 int main(int argc, char *argv[]) {
