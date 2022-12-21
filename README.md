@@ -8,8 +8,17 @@ This project mostly attempts to conform to [Google's C++ Style Guide](https://st
 
 ## Contents
 ### 1. Black-Scholes-Merton (WIP)
-#### 1.1. Black-Scholes-Merton (WIP)
-##### 1.1.1 The Black-Scholes Option Pricing Formula (WIP)
+#### BlackScholes (Page 3)
+Original Black-Scholes pricing formula for European-style calls/puts
+#### GBlackScholes (Page 8)
+Generalised Black-Scholes pricing formula for European-style calls/puts with an additional "cost of carry" parameter.
+Per page 8:
+- $b=r$ yields the original pricing formula
+- $b=r-q$ adjusts the original pricing formula to include a continuous dividend yield $q$
+- $b=0$ yields the Black (1976) futures option model
+- $b=0,r=0$ yields the Assay (1982) margined futures option model
+- $b=r-r_f$ yields the Garman & Kohlhagen (1983) currency option model, where $r_f$ is the foreign risk-free rate
+
 ### 2. Black-Scholes-Merton Greeks (WIP)
 ### 3. Analytical Formulas for American Options (WIP)
 ### 4. Exotic Options - Single Asset (WIP)
