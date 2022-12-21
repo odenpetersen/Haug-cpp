@@ -3,6 +3,6 @@
 #include <cmath>
 #endif
 
-float relative_error(float expected, float output) {
+double relative_error(double expected, double output) {
 	return std::abs((output - expected) / expected);
 }
