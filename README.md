@@ -21,7 +21,7 @@ Per page 8:
 
 ### 2. Black-Scholes-Merton Greeks (WIP)
 #### GDelta (Page 27) (WIP)
-Formula for delta ($\Delta$) with generalised Black-Scholes assumptions. Gives a negative value for put delta.
+Formula for delta $(\Delta)$ with generalised Black-Scholes assumptions. Gives a negative value for put delta.
 #### GBlackScholesNGreeks (Pages 87-89) (WIP)
 Approximates various greeks using finite differences. Note that explicit formulas are also provided for many of these in the book.
 
