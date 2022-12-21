@@ -23,9 +23,10 @@
 #include "utils/numerical.h"
 #endif
 
-//Page 27
-double GDelta(char call_put_flag, double stock_price, double strike_price, double time_to_expiry_years, double risk_free_rate, double cost_of_carry_annual, double sigma_annual) {
-	double d1 = (std::log(stock_price / strike_price) + (cost_of_carry_annual + std::pow(sigma_annual, 2.) / 2.)) / (sigma_annual * std::sqrt(time_to_expiry_years));
+//Pages 99-100
+double BAWAmericanCallApprox(double stock_price, double strike_price, double time_to_expiry_years, double risk_free_rate, double cost_of_carry_annual, double sigma_annual) {
+	double critical_price, n, k;
+	double d1, q2, a2;
 
 	if (call_put_flag == 'c') {
 		return std::exp((cost_of_carry_annual - risk_free_rate) * time_to_expiry_years) * pnorm(d1);
@@ -36,12 +37,9 @@ double GDelta(char call_put_flag, double stock_price, double strike_price, doubl
 	}
 }
 
-//Pages 87-89
-double GBlackScholesNGreeks(char output_flag, char call_put_flag, double stock_price, double strike_price, double time_to_expiry_years, double risk_free_rate, double cost_of_carry_annual, double sigma_annual, double stock_price_change = 0.01) {
-}
 
-void test_02() {
-	std::cout << "Chapter 02 Tests" << std::endl << std::endl;
+void test_03() {
+	std::cout << "Chapter 03 Tests" << std::endl << std::endl;
 
 	double expected, output;
 	double stock_price, strike_price, time_to_expiry_years, risk_free_rate, cost_of_carry_annual, sigma_annual;

@@ -24,6 +24,7 @@
 #endif
 
 //Page 3
+//Author provides alternative implementation (including in other languages) here http://www.espenhaug.com/black_scholes.html
 double BlackScholes(char call_put_flag, double stock_price, double strike_price, double time_to_expiry_years, double risk_free_rate, double sigma_annual) {
 	double d1 = (std::log(stock_price / strike_price) + (risk_free_rate + std::pow(sigma_annual,2.) / 2.) * time_to_expiry_years) / (sigma_annual * std::sqrt(time_to_expiry_years));
 	double d2 = d1 - sigma_annual * std::sqrt(time_to_expiry_years);
