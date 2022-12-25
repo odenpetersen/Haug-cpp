@@ -64,5 +64,5 @@ void test_03() {
 }
 
 int main(int argc, char *argv[]) {
-	test_02();
+	test_03();
 }

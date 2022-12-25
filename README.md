@@ -6,6 +6,8 @@ Please read the book for explanations of the formulas themselves and their param
 
 This project mostly attempts to conform to [Google's C++ Style Guide](https://students.cs.byu.edu/~cs235ta/references/Cpp%20Style/Google%20Cpp%20Style%20Guide.pdf), but this is not guaranteed. Variables are often renamed (i.e. differently to the book) for clarity.
 
+Page numbers are from the second edition of the book.
+
 ## Contents
 ### 1. Black-Scholes-Merton
 #### BlackScholes (Page 3)
@@ -95,22 +97,67 @@ Note that the function name in the book is misspelt `ThreeDimensionalBinomiaEuro
 #### CrankNicolson (Pages 342-343) (WIP)
 
 ### 8. Monte Carlo Simulation (WIP)
-TODO: List all code snippets in this chapter.
+#### MonteCarloStandardOption (Pages 346-347) (WIP)
+#### StandardMCWithGreeks (Pages 348-349) (WIP)
+#### CallableWarrantNDays (Pages 349-350) (WIP)
+#### MonteCarloAsianSpreadOption (Pages 351-352) (WIP)
+#### MonteCarloTripleAsset (Page 353) (WIP)
+#### CholeskyDecomposition (Pages 354-355) (WIP)
+#### MonteCarloMeanReverting (Pages 355-356) (WIP)
+#### BoxMuller2 (Page 357) (WIP)
+#### MonteCarloStandardOptionAntithetic (Pages 358-359) (WIP)
+#### IQMC (Page 361) (WIP)
+#### IQMC2Asset (Pages 361-362) (WIP)
+#### Halton (Page 363) (WIP)
+#### HaltonMonteCarloStandardOption (Page 363) (WIP)
+#### SuperIQMC (Page 364) (WIP)
+#### BroadieGlasserman (Pages 365-366) (WIP)
+##### NormInv (Page 366) (WIP)
 
 ### 9. Options on Stocks That Pay Discrete Dividends (WIP)
-TODO: List all code snippets in this chapter.
+#### HaugHaugVol (Page 370) (WIP)
+#### BosGaiShepVol (Page 371) (WIP)
+#### GBlackScholesBVCashDividend (Page 372) (WIP)
+#### BinomialDiscreteDividends (Pages 373-375) (WIP)
+#### RollGeskeWhaley (Pages 377-378) (WIP)
+#### DiscreteDividendYieldAnalytic (Pages 391-392) (WIP)
+#### DiscreteDividendYield (Page 393-395) (WIP)
 
 ### 10. Commodity and Energy Options (WIP)
-TODO: List all code snippets in this chapter.
+This chapter has no sample code.
 
 ### 11. Interest Rate Derivatives (WIP)
-TODO: List all code snippets in this chapter.
+#### SwaptionVol (Page 425) (WIP)
+#### BDTYieldOnly (Pages 441-443) (WIP)
 
 ### 12. Volatility and Correlation (WIP)
-TODO: List all code snippets in this chapter.
+#### CloseVolatility (Page 446) (WIP)
+##### LogChange (Pages 446-447) (WIP)
+#### HighLowVolatility (Page 448) (WIP)
+##### LogHighLow (Page 448) (WIP)
+#### HighLowCloseVolatility (Page 449) (WIP)
+#### ExponentiallyWeightedVol (Page 450) (WIP)
+#### ConfidenceIntervalVolatility (Page 452) (WIP)
+#### VolatilityCone (Page 453) (WIP)
+#### GImpliedVolatilityNR (Pages 454-455) (WIP)
+#### GBlackScholesImpVolBisection (Pages 455-456) (WIP)
+#### BasketVolatility (Pages 460) (WIP)
+#### HistoricalCorrelation (Pages 460-461) (WIP)
+#### CorrDen (Pages 461-462) (WIP)
 
 ### 13. Distributions (WIP)
-TODO: List all code snippets in this chapter.
+#### CND (Pages 466-467) (WIP)
+#### CND2 (Pages 468-469) (WIP)
+#### CNDEV (Pages 469-470) (WIP)
+#### CBND3 (Page 476) (WIP)
+#### CBND2 (Page 477) (WIP)
+#### CBND (Pages 478-480) (WIP)
+##### ArcSin (Page 480) (WIP)
+No need to implement this, since it's already in `<cmath>`. The algorithm in the book just uses VBA's `Atn` (arctan) function.
+#### CTND (Pages 482-483) (WIP)
+##### ADONED (Pages 483-484) (WIP)
+##### KRNRDD (Pages 484-486) (WIP)
+##### TRVFND (Page 486) (WIP)
 
 ### 14. Some Useful Formulas (WIP)
-TODO: List all code snippets in this chapter.
+#### CubicSpline (Pages 489-490) (WIP)
