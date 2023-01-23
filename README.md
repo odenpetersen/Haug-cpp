@@ -1,6 +1,6 @@
 # C++ Haug
 
-Translating VBA code from Espen Gaarder Haug's classic book [The Complete Guide to Option Pricing Formulas (1997)](https://www.amazon.com.au/Complete-Guide-Option-Pricing-Formulas/dp/0071389970) in C++.
+Translating VBA code from Espen Gaarder Haug's classic book [The Complete Guide to Option Pricing Formulas (1997)](https://www.amazon.com.au/Complete-Guide-Option-Pricing-Formulas/dp/0071389970) into C++.
 
 Please read the book for explanations of the formulas themselves and their parameters.
 
